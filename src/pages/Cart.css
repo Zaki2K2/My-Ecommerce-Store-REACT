@@ -1,0 +1,94 @@
+/* Cart.css */
+
+/* Cart title */
+.cart-title {
+    background-color: #333;
+    color: white;
+    font-size: 24px;
+    padding: 10px 0;
+    text-align: center;
+    margin: 0;
+}
+
+/* Cart wrapper */
+.cartWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Cart card */
+.cartCard {
+    width: 250px;
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: opacity 0.3s ease;
+    position: relative;
+}
+
+/* Cart card image */
+.cartCard img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Cart card title */
+.cartCard .cart-info {
+    padding: 10px 0;
+}
+
+.cartCard .cart-title {
+    font-size: 18px;
+    margin: 0;
+}
+
+/* Cart card price */
+.cartCard .cart-price {
+    color: #e91e63;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* Remove button */
+.remove-btn {
+    background-color: #e91e63;
+    margin-top: 450px;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.remove-btn:hover {
+    background-color: #d81b60;
+}
+
+/* Empty cart message */
+.empty-cart-message {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.empty-cart-message .btn {
+    background-color: #e91e63;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.empty-cart-message .btn:hover {
+    background-color: #d81b60;
+}

@@ -1,0 +1,58 @@
+/* Navbar.css */
+
+.navbar-container {
+    position: sticky;
+    top: 0;
+    background-color: #333; /* Dark background color */
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100; /* Ensure the navbar is above other content */
+}
+
+.logo-link {
+    text-decoration: none; /* Remove the underline from the link */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    max-width: 90px; /* Limit the logo's width */
+    height: auto; /* Maintain the logo's aspect ratio */
+    max-height: 90px; /* Set the maximum height of the logo */
+    margin-right: 10px; /* Add some spacing to the right of the logo */
+    margin-left: 10px;
+    transition: transform 0.3s; /* Add a transition for smooth scaling on hover */
+    transform-origin: center top; /* Set the transform origin to center top */
+}
+.logo img:hover {
+    transform: scale(1.9); /* Expand the logo on hover */
+ 
+}
+
+.myNav {
+    display: flex;
+    align-items: center;
+}
+
+.navLink {
+    margin-right: 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.navLink:hover {
+    color: #e91e63;
+}
+
+.cartCount {
+    font-size: 16px;
+    font-weight: bold;
+}

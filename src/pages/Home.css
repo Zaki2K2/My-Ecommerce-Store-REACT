@@ -1,0 +1,43 @@
+/* Home.css */
+
+/* Reset some default styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Styles for the header */
+header {
+    background-color: #1e88e5; /* Header background color */
+    padding: 20px;
+    text-align: center;
+}
+
+.heading {
+    color: #fff; /* Header text color */
+    font-size: 28px;
+    margin: 0;
+}
+
+/* Styles for the main content */
+.home-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Styles for the products section */
+.products-section {
+    background-color: #f0f0f0; /* Products section background color */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.products-section h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+/* Add additional styles as needed for your specific design */
